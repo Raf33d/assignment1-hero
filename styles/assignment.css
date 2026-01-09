@@ -98,7 +98,7 @@ span {
 .card-box .info-card  {
     padding: 30px;
     max-width: 322px;
-    box-shadow: 0 6px 50px 5px #00000020;
+    box-shadow: 10px 0 15px 0 #00000020;
     padding-bottom: 40px;
     padding-top: 30px;
     text-align: center;
@@ -151,6 +151,51 @@ span {
 
 }
 
+#solution {
+    max-width: 1360px;
+    margin: 47px 38px 0 230px;
+    display: flex;
+    justify-content: space-between;   
+    align-items: center;
+}
+#solution .solve-content {
+    max-width: 700px;
+}
+#solution .solve-content h4 {
+    font-weight: 600;
+    color: #30B868;
+    margin-bottom: 5px;
+    
+}
+#solution .solve-content h1 {
+    font-size: 48px;
+    font-weight: bold;
+    color: #181818;
+    margin-bottom: 20px;
+}
+#solution .solve-content p {
+    font-size: 16px;
+    color: #757575;
+    line-height: 20px;
+    margin-bottom: 40px;
+    letter-spacing: 0px;
+}
+#solution .solve-image img {
+    width: 600px;
+    height: auto;
+    
+}
+#solution .solve-content li {
+    display: flex;
+    list-style: none;
+    line-height: 20px;
+    letter-spacing: 0px;
+    gap: 5px;
+    margin: 5px
+    
+    
+
+}
 
 
 
