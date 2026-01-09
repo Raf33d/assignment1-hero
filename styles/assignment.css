@@ -84,6 +84,73 @@ nav .menu a {
 span {
     color: #30B868;
 }
+#notes .card-container {
+    width: 70%;
+    max-width: 1360px;
+    margin: 0 auto;
+}
+.card-container .card-box {
+    display: flex;
+    justify-content: center;
+    gap: 24px;
+}
+
+.card-box .info-card  {
+    padding: 30px;
+    max-width: 322px;
+    box-shadow: 0 6px 50px 5px #00000020;
+    padding-bottom: 40px;
+    padding-top: 30px;
+    text-align: center;
+
+}
+.info-card img {
+    max-width: 322px;
+    padding: 15px;
+
+    background-color: #F95555;
+    border-radius: 100px;
+    margin-top: 69px;
+
+    
+}
+.info-card h3 {
+    font-size: 24px;
+    color: #181818;
+    margin-bottom: 16px;
+    text-align: center;
+    font-weight: 600;
+}
+
+.info-card p {
+    font-size: 16px;
+    color: #757575;
+    text-align: center;
+    margin-bottom: 21.5px;    
+    
+}
+.card-container .section-heading {
+    max-width: 1360px;
+    text-align: center;
+    margin: 0 auto;;
+}
+
+.card-container .section-heading h1 {
+    font-size: 48px;
+    line-height: 30px;
+    padding-top: 60px;
+    color: #001931;
+
+}
+.card-container .section-heading p {
+    font-size: 16px;
+    margin-bottom: 30px;
+    line-height: 30px;
+    color: #757575;
+    padding-top: 16px ;
+
+}
+
 
 
 
